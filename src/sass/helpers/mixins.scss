@@ -1,0 +1,29 @@
+@mixin center-flex ($type: "all") {
+  display: flex;
+
+  @if $type== "all" {
+    justify-content: center;
+    align-items: center;
+  }
+  @else if $type== "hor" {
+    justify-content: center;
+  }
+  @else if $type== "ver" {
+    align-items: center;
+  }
+}
+
+@mixin generate-icons($baseclass, $list, $path, $ext) {
+  @each $icon in $list {
+    .#{$baseclass}#{$icon} {
+      background-image: url(#{$path}#{$icon}.#{$ext});
+    }
+  }
+}
+
+@mixin font-stack($family, $size, $color, $weight: 400) {
+  font-family: $family;
+  font-size: $size;
+  color: $color;
+  font-weight: $weight;
+}
