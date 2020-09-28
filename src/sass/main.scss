@@ -31,7 +31,7 @@
   background-image: url(../images/bg.png);
 
   @media (min-resolution: 192dpi), (min-resolution: 2dppx) {
-    background-image: url(../images/Bg@2x.png);
+    background-image: url(../images/bg@2x.png);
   }
 }
 
@@ -51,11 +51,11 @@
   width: 154px;
   height: 92px;
   margin: 0 auto 20px;
-  background-image: url(../images/Logo.png);
+  background-image: url(../images/logo.png);
   @extend %bg;
 
   @media (min-resolution: 192dpi), (min-resolution: 2dppx) {
-    background-image: url(../images/Logo@2x.png);
+    background-image: url(../images/logo@2x.png);
   }
 
   @media (min-width: 1200px) {
