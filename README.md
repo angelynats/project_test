@@ -1,4 +1,4 @@
 Restaurant
 HTML/CSS
 
-https://angelynats.github.io/project_test/build/
+https://angelynats.github.io/restaurant_html_css/build/
